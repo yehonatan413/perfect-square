@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Perfect Square</title>
+        <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css" />
+        
+    </head>
+    <body>
+        <audio class="sfx_pop" src="SFX/pop.mp3"></audio>
+        <audio class="sfx_perfect" src="SFX/perfect.mp3"></audio>
+        <audio class="music_arcadeMode" src="SFX/Arcade Mode.wav"></audio>
+
+        <main class="play_area">
+            <span class="timer hidden">00</span>
+            <div class="rect">
+                <span class="label percentage">0%</span>
+                <span class="label width">0</span>
+                <span class="label height">0</span>
+            </div>
+        </main>
+
+        <div class="modal_stats hidden">
+            <h2>Stats</h2>
+            <ul>
+                <li>
+                    Total rectangles:
+                    <span class="stat_data" id="count">0</span>
+                </li>
+                <li>
+                    Total perfect squares:
+                    <span class="stat_data" id="perfectCount">0</span>
+                </li>
+                <li>
+                    Largest perfect square:
+                    <span class="stat_data" id="perfectLargest">0x0</span>
+                </li>
+                <li>
+                    Longest perfect square streak:
+                    <span class="stat_data" id="perfectStreak">0</span>
+                </li>
+                <li>
+                    Average rectangle percentage:
+                    <span class="stat_data" id="avgPercentage">0%</span>
+                </li>
+                <li>
+                    Acrade mode high score:
+                    <span class="stat_data" id="highScore">0</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="overlay hidden"></div>
+
+        <footer>
+            <button class="btn_arcade">Arcade Mode</button>
+            <img class="img_logo" src="SVG/logo.png"></img>
+            <h1>0</h1>;
+            <button class="btn_stats">
+                <img class="img_stats" src="svg/chart-simple-solid.svg" alt="" />
+            </button>
+        </footer>
+    </body>
+    <script src="script.js"></script>
+</html>
