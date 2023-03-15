@@ -8,8 +8,8 @@ Click and drag the mouse to draw a rectangle and release to confirm. If the bord
 The goal is to draw a perfect square (the width exactly matches the height).
 Click the button on the bottom right to view stats.
 
-## Arcade Mode
-In Arcade Mode your goal is to draw as many perfect squares as you can within 30 seconds.
+### Arcade Mode
+In Arcade Mode, your goal is to draw as many perfect squares as you can within 30 seconds.
 
 # Play it Here!
 yehonatan413.github.io/perfect-square/
